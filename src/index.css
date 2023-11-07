@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-Poppins scroll-smooth;
+}
+
+body {
+  @apply box-border bg-gray-900 text-gray-100;
+}
+
+.btn-primary {
+  @apply bg-cyan-600 font-semibold text-white ml-0 rounded-full py-3 px-6 flex items-center gap-2;
+}
+
+.aboutImg::after {
+  @apply content-[''] w-full left-0 top-0 rounded-xl rotate-12 h-full absolute bg-gray-600 -z-10;
+}
+
+.swiper-pagination-bullet {
+  @apply bg-white;
+}
+
+input,
+textarea {
+  @apply bg-gray-700 outline-none rounded-lg p-3;
+}
+
+::placeholder {
+  @apply text-lg;
+}
+
+::selection {
+  @apply bg-cyan-600;
+}
+
+/* slider */
+.card {
+  @apply relative lg:w-80 md:w-60 sm:w-32 mx-auto cursor-pointer border-b-4 rounded-md bg-gradient-to-t from-white/20 h-44 text-center px-3 py-7 self-end duration-500 delay-100;
+}
+
+.card-active {
+  @apply h-96;
+}
+
+.logo {
+  @apply text-5xl mt-2 max-w-[5rem] mx-auto min-w-[5rem] min-h-[5rem] rounded-full bg-red-200 text-red-600 grid place-items-center;
+}
+
+.para {
+  @apply mt-3;
+}
+
+.card .skill-level {
+  @apply border-2 border-gray-200 text-white min-w-[3rem] min-h-[3rem] grid place-items-center rounded-full max-w-[3rem] absolute -right-2.5 scale-0;
+}
+
+.card-active .skill-level {
+  @apply scale-[1.3] delay-700 duration-300;
+}
+
+.card-active .logo {
+  @apply bg-red-500 text-red-200;
+}
+
+.writer {
+  font-family: Courier, monospace;
+  display: inline-block;
+  }
+  .writer-text {
+      display: inline-block;
+      overflow: hidden;
+      letter-spacing: 2px;
+      animation: typing 5s steps(30, end), blink .75s step-end infinite;
+      white-space: nowrap;
+      font-size: 30px;
+      font-weight: 700;
+      border-right: 4px solid orange;
+      box-sizing: border-box;
+  }
+
+  @keyframes typing {
+      from { 
+          width: 0% 
+      }
+      to { 
+          width: 100% 
+      }
+  }
+
+  @keyframes blink {
+      from, to { 
+          border-color: transparent 
+      }
+      50% { 
+          border-color: orange; 
+      }
+  }
