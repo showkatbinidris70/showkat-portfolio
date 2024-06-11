@@ -11,6 +11,11 @@ import project8 from "../assets/images/project-8.png";
 import project9 from "../assets/images/project-9.png";
 import project10 from "../assets/images/project-10.png";
 import project_person from "../assets/images/project_person1.png";
+import project_mosque from "../assets/images/mosque.png";
+import project_parallax from "../assets/images/parallax.png";
+import project_digital_agency from "../assets/images/digital-agency.png";
+import project_ekshop from "../assets/images/ekshop.png";
+
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -18,16 +23,40 @@ import { Pagination, Autoplay } from "swiper";
 const Project = () => {
   const projects = [
     {
-      img: project7,
-      name: "e-commerce template Ekshop",
-      github_link: "https://charming-pothos-aa55b8.netlify.app/",
-      live_link: "https://charming-pothos-aa55b8.netlify.app/",
+      img: project_mosque,
+      name: "Search Mosque (Webflow)",
+      github_link: "https://showkats-design.webflow.io/",
+      live_link: "https://showkats-design.webflow.io/",
+    },
+    {
+      img: project_parallax,
+      name: "Use Parallax (Webflow)",
+      github_link: "https://showkats-design.webflow.io/webflow-tutorial-101",
+      live_link: "https://showkats-design.webflow.io/webflow-tutorial-101",
+    },
+    {
+      img: project_digital_agency,
+      name: "Digital Agency (Webflow)",
+      github_link: "https://my-five-star-site-7568bb.webflow.io/",
+      live_link: "https://my-five-star-site-7568bb.webflow.io/",
+    },
+    {
+      img: project_ekshop,
+      name: "Ekshop New Design",
+      github_link: "https://github.com/showkatbinidris70/ekshop-new-design",
+      live_link: "https://ekshop-new-design.vercel.app/",
     },
     {
       img: project1,
-      name: "Steel Company",
-      github_link: "https://cheerful-pithivier-309c1d.netlify.app/",
-      live_link: "https://cheerful-pithivier-309c1d.netlify.app/",
+      name: "Theme Development",
+      github_link: "https://github.com/showkatbinidris70/nano-Elite-Steel-html-css",
+      live_link: "https://nano-elite-steel-html-css.vercel.app/",
+    },
+    {
+      img: project10,
+      name: "Noipunno Landing Page",
+      github_link: "https://github.com/showkatbinidris70/noipunno-landing-page",
+      live_link: "https://noipunno-landing-page.vercel.app/",
     },
     {
       img: project2,
@@ -36,18 +65,25 @@ const Project = () => {
       live_link: "https://dskm-home-page-design.netlify.app/",
     },
     {
-      img: project3,
-      name: "Agro Farm",
-      github_link: "https://github.com/showkatbinidris70/firgma-to-reactjs.git",
-      live_link: "https://showkatbinidris.netlify.app/",
-    },
-    {
       img: project4,
       name: "Sonargaon Library",
       github_link:
         "https://github.com/showkatbinidris70/nanosoft-sonargaon-library",
-      live_link: "https://stellar-alfajores-7a4ac2.netlify.app/",
+      live_link: "https://nanosoft-sonargaon-library.vercel.app/",
     },
+    {
+      img: project7,
+      name: "e-commerce template Ekshop",
+      github_link: "https://charming-pothos-aa55b8.netlify.app/",
+      live_link: "https://charming-pothos-aa55b8.netlify.app/",
+    },
+    {
+      img: project3,
+      name: "Agro Farm",
+      github_link: "https://github.com/showkatbinidris70/nanosoft-first-task-agro",
+      live_link: "https://nanosoft-first-task-agro-farm.vercel.app/",
+    },
+  
     {
       img: project5,
       name: "e-learning",
@@ -57,27 +93,22 @@ const Project = () => {
     {
       img: project6,
       name: "e-commerce template",
-      github_link: "https://github.com/Sridhar-C-25",
+      github_link: "https://github.com/showkatbinidris70/nano-e-commerce-template-react",
       live_link: "https://visionary-buttercream-1ed34f.netlify.app/",
     },
     {
       img: project8,
       name: "Debate Management System",
-      github_link: "https://resplendent-otter-d6a012.netlify.app/",
-      live_link: "https://resplendent-otter-d6a012.netlify.app/",
+      github_link: "https://github.com/showkatbinidris70/nano-debate-management-figma-to-html",
+      live_link: "https://nano-debate-management-figma-to-html.vercel.app/",
     },
     {
       img: project9,
       name: "Bangladesh Railway Police",
-      github_link: "https://bucolic-faloodeh-5b2da1.netlify.app/",
-      live_link: "https://bucolic-faloodeh-5b2da1.netlify.app/",
+      github_link: "https://github.com/showkatbinidris70/nano-bd-railway-police-figma-to-html",
+      live_link: "https://nano-bd-railway-police-figma-to-html.vercel.app/",
     },
-    {
-      img: project10,
-      name: "Noipunno Landing Page",
-      github_link: "https://bucolic-faloodeh-5b2da1.netlify.app/",
-      live_link: "https://rococo-rolypoly-e8c9eb.netlify.app/",
-    },
+  
   ];
   return (
     <section id="projects" className="py-10 text-white">

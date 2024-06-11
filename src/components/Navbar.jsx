@@ -22,15 +22,15 @@ const Navbar = () => {
             name: "PROJECTS",
             link: "#projects"
         }, 
-        {
-            name: "BLOG",
-            link: "https://learn-with-s-ali.vercel.app/"
-        }, {
-            name: <img src={youtube}
-                className="img-fluid"
-                alt="youtube"/>,
-            link: "https://www.youtube.com/"
-        }, 
+        // {
+        //     name: "BLOG",
+        //     link: "https://learn-with-s-ali.vercel.app/"
+        // }, {
+        //     name: <img src={youtube}
+        //         className="img-fluid"
+        //         alt="youtube"/>,
+        //     link: "https://www.youtube.com/"
+        // }, 
         {
             name: "CONTACT",
             link: "#contact"
