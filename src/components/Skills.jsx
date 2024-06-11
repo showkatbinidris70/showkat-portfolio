@@ -34,6 +34,13 @@ export default function Skills() {
     const [active, setActive] = useState(null);
     const langs = [
         {
+            name: "Webflow",
+            logo: "webflow",
+            skill: "50%",
+            color: "hue-rotate-[20deg]",
+            text: "As a dedicated and skilled Webflow developer, I specialize in creating visually stunning and highly functional websites that blend aesthetics with usability. With a strong web design principles."
+        },
+        {
             name: "JavaScript",
             logo: "javascript",
             skill: "80%",
@@ -48,11 +55,25 @@ export default function Skills() {
             text: "React JS is my favorite javascript library. I have built some projects using React JS. I have clear knowledge about Hooks, JSX , Virtual DOM, One-way data binding & Component Based Architecture."
         },
         {
+            name: "Webflow",
+            logo: "webflow",
+            skill: "50%",
+            color: "hue-rotate-[225deg]",
+            text: "As a dedicated and skilled Webflow developer, I specialize in creating visually stunning and highly functional websites that blend aesthetics with usability. With a strong web design principles."
+        },
+        {
             name: "HTML 5",
             logo: "html5",
             skill: "80%",
             color: "hue-rotate-[20deg]",
             text: "HTML5 is the latest version of Hypertext Markup Language. I have built some projects using HTML 5. I have sound knowledge about Semantic Elements, Canvas Elements, Responsive Images."
+        },
+        {
+            name: "Webflow",
+            logo: "webflow",
+            skill: "50%",
+            color: "hue-rotate-[20deg]",
+            text: "As a dedicated and skilled Webflow developer, I specialize in creating visually stunning and highly functional websites that blend aesthetics with usability. With a strong web design principles."
         },
         {
             name: "css3",
